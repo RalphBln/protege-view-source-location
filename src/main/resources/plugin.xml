@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+
+	<extension id="viewsourcelocation" point="org.protege.editor.core.application.EditorKitMenuAction">
+		<name value="Show file location"/>
+		<path value="org.protege.editor.core.application.menu.FileMenu/SlotAB-Z"/>
+		<toolTip value="Shows the active ontology's file location"/>
+		<class value="net.ralphbln.protege.plugin.sourcelocation.menu.OpenFileLocationAction"/>
+		<accelerator value="shift F"/>
+		<editorKitId value="any"/>
+	</extension>
+    
+</plugin>
